@@ -38,9 +38,8 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.jpg);
+    /* background-image: url(../src/assets/bg-texture2.jpg); */
     background-size: cover;
-    background-blend-mode: overlay;
 }
 
 /* ========== GENERAL STYLES ========*/
@@ -77,6 +76,11 @@ section>h2 {
 }
 
 .text-light {
+    color: var(--color-light);
+}
+
+.text-light2 {
+    margin-top: -0.3rem;
     color: var(--color-light);
 }
 
