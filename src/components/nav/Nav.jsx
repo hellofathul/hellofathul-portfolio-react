@@ -9,7 +9,7 @@ import {TbMessageDots} from 'react-icons/tb'
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
+      <a href="#" className='active'><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><BsJournalCheck/></a>
       <a href="#portfolio"><BsBriefcase/></a>
