@@ -79,6 +79,40 @@ const Experience = () => {
             </article>
           </div>
         </div>
+        {/* END OF MOBILE DEVELOPMENT */}
+        <div className="experience__designing">
+          <h3>Designing and Editing</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Adobe Photoshop</h4>
+                <small className="text-light">Expert</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Adobe Illustrator</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Adobe Premiere Pro</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Davinci Resolve Studio</h4>
+                <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
   )

@@ -41,6 +41,11 @@
     color: var(--color-primary);
 }
 
+.experience__designing {
+    left: 50%;
+    transform: translateX(50%);
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========*/
 @media screen and (max-width: 1024px) {
     .experience__container {
@@ -56,6 +61,11 @@
     .experience__content {
         padding: 1rem;
     }
+
+    .experience__container > .experience__designing {
+        left: 50%;
+        transform: translateX(0%);
+    }
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========*/
@@ -68,4 +78,5 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+
 }
