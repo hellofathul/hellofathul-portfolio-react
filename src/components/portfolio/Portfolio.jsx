@@ -15,7 +15,7 @@ const Portfolio = () => {
           </div>
           <h3>Student Induction Week (MINDS) Universiti Malaysia Pahang</h3>
           <div className="portfolio__item-cta">
-            <a href="https://dribbble.com/hellofathul" className='btn' target='_blank'>Dribble</a>
+            <a href="https://dribbble.com/hellofathul" className='btn' target='_blank'>Dribbble</a>
             <a href="https://www.instagram.com/mindsump_2223/" className='btn btn-primary' target='_blank'>MINDS Instagram</a>
           </div>
         </article>
