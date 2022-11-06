@@ -1,9 +1,46 @@
 import React from 'react'
 import './services.css'
+import { BiCheck } from 'react-icons/bi'
 
 const Services = () => {
   return (
-    <section id='services'>Services</section>
+    <section id='services'>
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
+      <div className="container container__services">
+        <article className="service">
+          <div className="service__head">
+            <h3>Corporate Style Content Creation</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>E-Poster</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>E-Banner</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Printing Banner</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Printing Backdrop</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Printing Bunting</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Logo Creation</p>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </section>
   )
 }
 
