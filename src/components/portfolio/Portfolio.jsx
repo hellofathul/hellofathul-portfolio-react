@@ -9,6 +9,13 @@ const data = [
     title: 'Student Induction Week (MINDS) Universiti Malaysia Pahang',
     link: 'https://www.instagram.com/mindsump_2223/',
     demo: 'https://dribbble.com/hellofathul',
+  },
+  {
+    id: 2,
+    image: IMG1,
+    title: 'My Portfolio using React',
+    link: 'https://github.com/hellofathul/hellofathul-portfolio-react',
+    demo: 'https://www.hellofathul.com',
   }
 
 ]
@@ -29,8 +36,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={link} className='btn' target='_blank'>Demo</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>MINDS Instagram</a>
+                  <a href={link} className='btn' target='_blank'>Resources</a>
+                  <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
                 </div>
               </article>
             )
