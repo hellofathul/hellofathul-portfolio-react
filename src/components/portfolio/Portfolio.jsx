@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
 
 const data = [
   {
@@ -12,9 +13,16 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'My Portfolio using React',
+    image: IMG2,
+    title: 'My Portfolio using ReactJS',
     link: 'https://github.com/hellofathul/hellofathul-portfolio-react',
+    demo: 'https://www.hellofathul.com',
+  },
+  {
+  id: 3,
+    image: IMG2,
+    title: 'Persatuan Teknologi Komputer (e-PETAKOM) Management and Election System',
+    link: 'https://github.com/hellofathul/e-petakom',
     demo: 'https://www.hellofathul.com',
   }
 
@@ -37,7 +45,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={link} className='btn' target='_blank'>Resources</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Demo</a>
+                  <a href={demo} className='btn btn-primary' targ et='_blank'>Demo</a>
                 </div>
               </article>
             )

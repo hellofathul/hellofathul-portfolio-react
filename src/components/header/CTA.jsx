@@ -1,5 +1,7 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
+import {BsMoon} from 'react-icons/bs'
+import {BsSun} from 'react-icons/bs'
 
 const CTA = () => {
   return (
