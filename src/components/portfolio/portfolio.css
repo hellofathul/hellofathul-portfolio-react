@@ -23,7 +23,15 @@
 }
 
 .portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+    margin: 1.2rem 0 1.5rem;
+}
+
+#dark .ongoing__project {
+    color: rgb(229, 255, 0);
+}
+
+#light .ongoing__project {
+    color:brown;
 }
 
 .portfolio__item-cta {

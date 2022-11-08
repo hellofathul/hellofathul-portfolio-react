@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
 
 const data = [
   {
@@ -17,15 +18,7 @@ const data = [
     title: 'My Portfolio using ReactJS',
     link: 'https://github.com/hellofathul/hellofathul-portfolio-react',
     demo: 'https://www.hellofathul.com',
-  },
-  {
-  id: 3,
-    image: IMG2,
-    title: 'Persatuan Teknologi Komputer (e-PETAKOM) Management and Election System',
-    link: 'https://github.com/hellofathul/e-petakom',
-    demo: 'https://www.hellofathul.com',
   }
-
 ]
 
 const Portfolio = () => {
@@ -51,6 +44,16 @@ const Portfolio = () => {
             )
           })
         }
+        <article className="portfolio__item">
+          <div className="portfolio__item-img">
+            <img src={IMG3} alt='Portfolio Image' />
+          </div>
+          <h3 className='ongoing__project'> [ONGOING PROJECT]</h3><h3 className='e-petakom'>Persatuan Teknologi Komputer <br />(e-PETAKOM) Management and Election System</h3>
+          <div className="portfolio__item-cta">
+            <a href='https://github.com/hellofathul/e-petakom' className='btn' target='_blank'>Resources</a>
+            <a href="https://epetakom.hellofathul.com" className='btn btn-primary' target='_blank'>Demo</a>
+          </div>
+        </article>
       </div>
     </section>
   )
